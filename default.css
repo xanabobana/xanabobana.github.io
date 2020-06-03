@@ -81,10 +81,6 @@
 		width: 100%;
 		margin: 0 0 2em 0;
 	}
-
-	.image-full:hover {
-		opacity: .5;
-	}
 	
 	.image-left
 	{
@@ -264,6 +260,9 @@ height:60px;
 	ul.contact li a.icon-tumblr:before { background: #31516A; }
 	ul.contact li a.icon-rss:before { background: #F2600B; }
 
+	#glass_links {
+		display: none;
+	}
 /*********************************************************************************/
 /* Button Style                                                                  */
 /*********************************************************************************/
@@ -486,7 +485,34 @@ height:60px;
 		margin-bottom: 4em;
 	}
 
-
+	.img__wrap {
+		position: relative;
+		height: 1100px;
+		width: 800px;
+	  }
+	  
+	  .img__description {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(29, 106, 154, 0.72);
+		color: #fff;
+		visibility: hidden;
+		opacity: 0;
+		padding-top:60px;
+		font-size:36px;
+		font-weight:bold;
+	  
+		/* transition effect. not necessary */
+		transition: opacity .2s, visibility .2s;
+	  }
+	  
+	  .img__wrap:hover .img__description {
+		visibility: visible;
+		opacity: 1;
+	  }
 
 /*********************************************************************************/
 /* Page                                                                          */
