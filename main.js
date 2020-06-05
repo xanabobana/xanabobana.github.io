@@ -49,7 +49,7 @@ function stained_glass() {
     document.getElementById('theatrical').className='';
     document.getElementById('glass_links').style.display = "block";
     document.getElementById('social_links').style.display = "none";
-    banner.src="images/BeFunky-collage.jpg";
+    banner.src=img.src;
     node.removeChild(child);
     var a=document.createElement('a');
     a.href='/glass/index.html';
