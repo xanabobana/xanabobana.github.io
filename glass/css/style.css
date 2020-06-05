@@ -93,10 +93,13 @@ figure {
 display:none;
 text-align:right;
 width:100%;
-font-family: "Montserrat", Arial, sans-serif;
-font-weight: 400;
-font-size:48px;
+
   }
+.smallonly h1 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 400;
+
+}
   @media screen and (max-width: 1200px) {
     #colorlib-aside {
       width: 30%; } }
