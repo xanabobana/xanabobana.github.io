@@ -89,6 +89,12 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
+.smallonly {
+display:none;
+text-align:right;
+width:100%;
+
+  }
   @media screen and (max-width: 1200px) {
     #colorlib-aside {
       width: 30%; } }
@@ -100,7 +106,10 @@ figure {
       -ms-transform: translateX(-270px);
       -o-transform: translateX(-270px);
       transform: translateX(-270px);
-      padding-top: 4em; } }
+      padding-top: 4em; }
+    .smallonly {
+      display:inline-block;
+    } }
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 400;
