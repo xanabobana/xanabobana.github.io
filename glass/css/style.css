@@ -98,7 +98,6 @@ width:100%;
 .smallonly h1 {
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: 400;
-  font-size: 1.5em;
 }
   @media screen and (max-width: 1200px) {
     #colorlib-aside {
