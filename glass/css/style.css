@@ -1528,3 +1528,7 @@ article {
         text-decoration: none;
         outline: none;
         color: #F75940; }
+
+        .tiny_img {
+          height:100px;
+        }
