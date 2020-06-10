@@ -1139,8 +1139,7 @@ article {
       @media screen and (max-width: 480px) {
         .side .instagram-entry .instagram {
           width: 50%; } }
-      .side .instagram-entry .instagram:hover:after, .side .instagram-entry .instagram:hover:before, .side .instagram-entry .instagram:focus:after, .side .instagram-entry .instagram:focus:before {
-        opacity: 1; }
+
   .side .f-blog {
     position: relative;
     padding-left: 90px;
