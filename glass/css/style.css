@@ -89,6 +89,8 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
+
+
 .smallonly {
 display:none;
 text-align:right;
@@ -1531,3 +1533,14 @@ article {
         .tiny_img {
           height:100px;
         }
+      }
+    }
+  }
+}
+.contactform {
+  
+}
+.contactform input {
+margin: 10px 0px;
+  width:400px;
+}
